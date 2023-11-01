@@ -40,7 +40,7 @@ jobs:
         run: |
          echo "MONGODB_USERNAME: ${{ env.MONGODB_USERNAME }}"
 
-  deploy:.
+  deploy:
     needs: test
     runs-on: ubuntu-latest
     steps:
